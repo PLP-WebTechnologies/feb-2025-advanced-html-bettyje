@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 elements and Forms</title>
+</head>
+<body>
+    <h1>Advanced HTML5 elements and forms</h1>
+
+    <h2>Ordered list with roman numerals</h2>
+    <ol type = "I">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+        <li>Fourth</li>
+        <li>Fifth</li>
+    </ol>
+
+    <h2>External image from pexels.com</h2>
+
+    <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg" alt="Nature image" width="500">
+
+    <h2>Contacts table</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Cliff Kim</td>
+                <td>1234 upperhill</td>
+                <td>12345675</td>
+                <td>cliff@example.com</td>
+            </tr>
+            <tr>
+                 <td>Jane Doe</td>
+                 <td>456 nairobi</td>
+                 <td>555-5678</td>
+                 <td>jane@example.com</td>
+            </tr>
+            <tr>
+                 <td>John Doe</td>
+                 <td>234 kakamega</td>
+                 <td>46743934</td>
+                 <td>john@example.com</td>
+            </tr>
+            <tr>
+                 <td>Kenya Karim</td>
+                 <td>476 eldoret</td>
+                 <td>38893663</td>
+                 <td>kenya@example.com</td>
+            </tr>
+            <tr>
+                 <td>Tyler kip</td>
+                 <td>456 kimumu</td>
+                 <td>53785949</td>
+                 <td>tyler@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Registration form</h2>
+    <form action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <br><br>
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required> 
+
+        <br><br>
+
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country" required>
+            <option value="">Select your country</option>
+            <option value="uganda">Uganda</option>
+            <option value="kenya">Kenya</option>
+            <option value="tanzania">Tanzania</option>
+            <option value="burundi">Burundi</option>
+            <option value="sudan">Sudan</option>
+        </select>
+
+        <br><br>
+
+        <label for="">Gender: </label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+
+        <br><br>
+
+        <!-- checkboxes -->
+         <label for="hobbies">Hobbies:</label>
+         <label for="music">Music</label>
+         <input type="checkbox" id="music" name="hobbies" value="music">
+         <label for="sports">Sports</label>
+         <input type="checkbox" id="sports" name="hobbies" value="sports">
+         <label for="reading">Reading</label>
+         <input type="checkbox" id="reading" name="hobbies" value="reading">
+         <label for="skiing">Skiing</label>
+         <input type="checkbox" id="skiing" name="hobbies" value="skiing">
+         <label for="gaming">Gaming</label>
+         <input type="checkbox" id="gaming" name="hobbies" value="gaming">
+
+         <!--submit button-->
+         <input type="submit" value="Register">
+
+
+
+
+    </form>
+
+    
+</body>
+</html>
